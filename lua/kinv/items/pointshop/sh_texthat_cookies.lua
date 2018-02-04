@@ -22,6 +22,8 @@ local CONFIG = {
 
 function ITEM:initialize( id )
 	KInventory.Items.base_pointshop_item.initialize( self, id )
+end
+if KInventory.Items.base_texthat then
     KInventory.Items.base_texthat.generateFromPersistence( ITEM, CONFIG )
 end
 
