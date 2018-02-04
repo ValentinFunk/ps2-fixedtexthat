@@ -16,7 +16,7 @@ local CONFIG = {
     color = Color(255, 0, 0), 
     outlineColor = Color(0, 255, 0),
     size = 0.25, -- Size scale
-    -- Remove dashes to enable rainbow
+    -- Change to true to enable rainbow
     rainbow = false
 }
 
